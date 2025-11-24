@@ -8,9 +8,10 @@ function ThemeToggle() {
             className="theme-toggle" 
             onClick={toggleTheme}
             aria-label="Toggle theme"
+            title={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
         >
             <span className="toggle-icon">
-                {isDarkMode ? '☀️' : '🌙'}
+                {isDarkMode ? 'Light' : 'Dark'}
             </span>
         </button>
     );

@@ -1,12 +1,89 @@
-# React + Vite
+# Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimalistic programmer's portfolio showcasing my projects, skills, and experience. Built with React and Vite, featuring a clean design with dark/light theme support.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Minimalistic Design**: Clean, professional aesthetic suitable for a developer portfolio
+- **Dark/Light Theme**: Toggle between dark and light modes with smooth transitions
+- **Responsive**: Fully responsive design that works on all devices
+- **Modern Stack**: Built with React 19 and Vite for optimal performance
+- **No Emojis**: Professional text-based design throughout
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React 19, Vite
+- **Styling**: Vanilla CSS with CSS Variables
+- **Typography**: Inter font family from Google Fonts
+- **Deployment**: GitHub Pages
+
+## 📂 Project Structure
+
+```
+My_Portfolio/
+├── src/
+│   ├── components/
+│   │   ├── About_Me.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Education.jsx
+│   │   ├── Achievements.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ThemeToggle.jsx
+│   │   ├── ThemeContext.jsx
+│   │   └── BinaryBackground.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── public/
+├── index.html
+└── package.json
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/Mohiit007/My_Portfolio.git
+cd My_Portfolio
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Run the development server
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## 📧 Contact
+
+- **Email**: mrrawat9971@gmail.com
+- **LinkedIn**: [Mohit Rawat](https://www.linkedin.com/in/mohit-rawat-7aab89390/)
+- **GitHub**: [Mohiit007](https://github.com/Mohiit007)
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+**Note**: This portfolio was redesigned with a minimalistic programmer aesthetic, featuring clean typography, refined color palettes, and professional design elements.
